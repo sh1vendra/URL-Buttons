@@ -13,10 +13,6 @@ public class CosineDrawingButton  {
 
     }
 
-    @Override
-    protected void plotter(JFrame plotterFrame){
-        plotterFrame.add(new CosineDrawer());
-    }
 
     private static class CosineDrawer extends JPanel implements ActionListener {
         private final Timer timer; // Timer to update the "x" coordinate
