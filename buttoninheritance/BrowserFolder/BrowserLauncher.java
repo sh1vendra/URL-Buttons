@@ -18,10 +18,12 @@ public class BrowserLauncher {
     }
 
 
-private static void showErrorDialog(String message) {
-    JOptionPane.showMessageDialog(    
-        JOptionPane.ERROR_MESSAGE 
-    );
+    private static void showErrorDialog(String message) {
+        JOptionPane.showMessageDialog(
+            null,        
+            message,    
+            "An Error Occurred",      
+            JOptionPane.ERROR_MESSAGE  
+        );
+    }
 }
-}
-
