@@ -3,6 +3,7 @@ package buttoninheritance.urlbuttons;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import buttoninheritance.BrowserFolder.*;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.URI;
@@ -22,15 +23,15 @@ public class ParentURLButton extends ButtonUI implements ActionListener{
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        openBrowser(url);
+        BrowserLauncher.openBrowser(url);
     }
 
     protected void reNameButton(String name){
         this.setText(name);
     }
 
+}
 
-    
 
 
 
