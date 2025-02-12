@@ -1,5 +1,5 @@
 package buttoninheritance.BrowserFolder;
-
+import javax.swing.JOptionPane;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -17,6 +17,11 @@ public class BrowserLauncher {
         }
     }
 
+
+private static void showErrorDialog(String message) {
+    JOptionPane.showMessageDialog(    
+        JOptionPane.ERROR_MESSAGE 
+    );
 }
-    
+}
 
