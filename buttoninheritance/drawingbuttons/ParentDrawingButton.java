@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class ParentDrawingButton {
+public abstract class ParentDrawingButton extends ButtonUI{
 
 
     public ParentDrawingButton(String text) {
@@ -31,3 +31,4 @@ public class ParentDrawingButton {
         plotterFrame.setVisible(true);
     }
 }
+
