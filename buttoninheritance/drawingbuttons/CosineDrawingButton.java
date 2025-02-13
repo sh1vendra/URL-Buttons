@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.*;
 
-public class CosineDrawingButton  {
+public class CosineDrawingButton extends ParentDrawingButton {
     public CosineDrawingButton(String text){
         super(text);
 
