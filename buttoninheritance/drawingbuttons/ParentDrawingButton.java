@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public abstract class ParentDrawingButton extends ButtonUI{
+public abstract class ParentDrawingButton extends ButtonUI implements ActionListener{
 
 
     public ParentDrawingButton(String text) {
