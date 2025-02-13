@@ -7,10 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.*;
 
-public class CosineDrawingButton  {
+public class CosineDrawingButton extends ParentDrawingButton {
     public CosineDrawingButton(String text){
         super(text);
 
+    }
+    @Override
+    protected void plotter(JFrame plotterFrame){
+        CosineDrawer cosineDrawer = new CosineDrawer();
+        plotterFrame.add(cosineDrawer);
     }
 
 
