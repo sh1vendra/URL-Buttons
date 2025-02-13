@@ -14,12 +14,12 @@ public class SineDrawingButton extends ParentDrawingButton {
     }
     @Override
     protected void plotter(JFrame plotterFrame){
-        CosineDrawer cosineDrawer = new CosineDrawer();
-        plotterFrame.add(cosineDrawer);
+        SineDrawer SineDrawer = new SineDrawer();
+        plotterFrame.add(SineDrawer);
     }
 
 
-    private static class CosineDrawer extends JPanel implements ActionListener {
+    private static class SineDrawer extends JPanel implements ActionListener {
         private final Timer timer; // Timer to update the "x" coordinate
         private double angle = 0.0; // Start angle
         private final List<Point> points; // To store points of the cosine curve
