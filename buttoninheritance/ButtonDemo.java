@@ -1,7 +1,6 @@
 package buttoninheritance;
 
 import buttoninheritance.drawingbuttons.CosineDrawingButton;
-import buttoninheritance.drawingbuttons.ParentDrawingButton;
 import buttoninheritance.urlbuttons.OCPButton;
 import buttoninheritance.urlbuttons.ParentURLButton;
 import buttoninheritance.urlbuttons.SRPButton;
@@ -29,7 +28,7 @@ public class ButtonDemo extends JFrame {
         add(srpButton);
         add(ocpButton);
         add(secretsButton);
-        //add(drawingButton);
+        add(drawingButton);
     }
 
     public static void main(String[] args) {
