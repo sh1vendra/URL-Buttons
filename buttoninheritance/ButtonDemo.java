@@ -1,6 +1,7 @@
 package buttoninheritance;
 
 import buttoninheritance.drawingbuttons.CosineDrawingButton;
+import buttoninheritance.drawingbuttons.SineDrawingButton;
 import buttoninheritance.urlbuttons.OCPButton;
 import buttoninheritance.urlbuttons.ParentURLButton;
 import buttoninheritance.urlbuttons.SRPButton;
@@ -22,6 +23,7 @@ public class ButtonDemo extends JFrame {
         OCPButton ocpButton = new OCPButton("OCP","https://www.youtube.com/watch?v=j9G-1TF9KkQ");
         SecretsButton secretsButton = new SecretsButton("Secrets","https://www.youtube.com/watch?v=vJQhI8gIsJI");
         CosineDrawingButton drawingButton = new CosineDrawingButton("Cosine Plotter");
+        SineDrawingButton sineButton = new SineDrawingButton("Sine Plotter");
 
         // Add buttons to the frame
         add(txStateURLButton);
@@ -29,6 +31,7 @@ public class ButtonDemo extends JFrame {
         add(ocpButton);
         add(secretsButton);
         add(drawingButton);
+        add(sineButton);
     }
 
     public static void main(String[] args) {

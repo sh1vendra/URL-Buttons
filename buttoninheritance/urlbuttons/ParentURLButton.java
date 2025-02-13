@@ -1,13 +1,9 @@
 package buttoninheritance.urlbuttons;
 
-
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import buttoninheritance.BrowserFolder.*;
 import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
+
 
 import buttoninheritance.ButtonUI;
 
