@@ -12,6 +12,11 @@ public class CosineDrawingButton extends ParentDrawingButton {
         super(text);
 
     }
+    @Override
+    protected void plotter(JFrame plotterFrame){
+        CosineDrawer cosineDrawer = new CosineDrawer();
+        plotterFrame.add(cosineDrawer);
+    }
 
 
     private static class CosineDrawer extends JPanel implements ActionListener {
