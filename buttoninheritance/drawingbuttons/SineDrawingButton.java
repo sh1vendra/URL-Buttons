@@ -18,7 +18,7 @@ public class SineDrawingButton extends ParentDrawingButton {
     }
     @Override
     protected void plotter(JFrame plotterFrame){
-        SineDrawer cosineDrawer = new SineDrawer();
+        CosineDrawer cosineDrawer = new CosineDrawer();
         plotterFrame.add(cosineDrawer);
     }
 
@@ -64,3 +64,4 @@ public class SineDrawingButton extends ParentDrawingButton {
     }
 >>>>>>> bkm111_add_sine_plotting_code
 }
+//check
