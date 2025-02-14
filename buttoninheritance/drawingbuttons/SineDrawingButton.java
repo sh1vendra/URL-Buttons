@@ -1,9 +1,5 @@
 package buttoninheritance.drawingbuttons;
 
-<<<<<<< HEAD
-public class SineDrawingButton {
-    
-=======
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -18,8 +14,8 @@ public class SineDrawingButton extends ParentDrawingButton {
     }
     @Override
     protected void plotter(JFrame plotterFrame){
-        CosineDrawer cosineDrawer = new CosineDrawer();
-        plotterFrame.add(cosineDrawer);
+        SineDrawer SineDrawer = new SineDrawer();
+        plotterFrame.add(SineDrawer);
     }
 
 
@@ -62,6 +58,5 @@ public class SineDrawingButton extends ParentDrawingButton {
             }
         }
     }
->>>>>>> bkm111_add_sine_plotting_code
 }
 //check
